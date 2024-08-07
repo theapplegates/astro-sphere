@@ -8,6 +8,7 @@ tags:
 - Astro
 - Astro Sphere
 ---
+![A test image](@assets/images/elephant-charge.jpg)
 
 Astro Sphere is designed to be configurable. This article will cover the basics on
 configuring the site and make it personal.
