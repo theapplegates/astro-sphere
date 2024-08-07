@@ -57,6 +57,55 @@ https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_1000/f_jpg/e
   />
 </picture>
 
+<picture>
+  <source
+    type="image/avif"
+    srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_50/f_avif/grigorii-shcheglov-door_ikjqgo.jpg 50w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_341/f_avif/grigorii-shcheglov-door_ikjqgo.jpg 341w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_491/f_avif/grigorii-shcheglov-door_ikjqgo.jpg 491w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_607/f_avif/grigorii-shcheglov-door_ikjqgo.jpg 607w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_752/f_avif/grigorii-shcheglov-door_ikjqgo.jpg 752w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_894/f_avif/grigorii-shcheglov-door_ikjqgo.jpg 894w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_981/f_avif/grigorii-shcheglov-door_ikjqgo.jpg 981w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_987/f_avif/grigorii-shcheglov-door_ikjqgo.jpg 987w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_1000/f_avif/grigorii-shcheglov-door_ikjqgo.jpg 1000w"
+    sizes="(max-width: 50px) 50px,
+(max-width: 341px) 341px,
+(max-width: 491px) 491px,
+(max-width: 607px) 607px,
+(max-width: 752px) 752px,
+(max-width: 894px) 894px,
+(max-width: 981px) 981px,
+(max-width: 987px) 987px,
+(max-width: 1000px) 1000px, 100vw"
+  >
+  <source
+    type="image/jpeg"
+    srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_50/f_jpg/grigorii-shcheglov-door_ikjqgo.jpg 50w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_341/f_jpg/grigorii-shcheglov-door_ikjqgo.jpg 341w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_491/f_jpg/grigorii-shcheglov-door_ikjqgo.jpg 491w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_607/f_jpg/grigorii-shcheglov-door_ikjqgo.jpg 607w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_752/f_jpg/grigorii-shcheglov-door_ikjqgo.jpg 752w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_894/f_jpg/grigorii-shcheglov-door_ikjqgo.jpg 894w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_981/f_jpg/grigorii-shcheglov-door_ikjqgo.jpg 981w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_987/f_jpg/grigorii-shcheglov-door_ikjqgo.jpg 987w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_1000/f_jpg/grigorii-shcheglov-door_ikjqgo.jpg 1000w"
+    sizes="(max-width: 50px) 50px,
+(max-width: 341px) 341px,
+(max-width: 491px) 491px,
+(max-width: 607px) 607px,
+(max-width: 752px) 752px,
+(max-width: 894px) 894px,
+(max-width: 981px) 981px,
+(max-width: 987px) 987px,
+(max-width: 1000px) 1000px, 100vw"
+  >
+  <img
+    src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_50/f_jpg/grigorii-shcheglov-door_ikjqgo.jpg"
+    alt="Image"
+  />
+</picture>
+
 Astro Sphere is designed to be configurable. This article will cover the basics on
 configuring the site and make it personal.
 
