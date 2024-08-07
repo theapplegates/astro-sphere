@@ -8,7 +8,54 @@ tags:
 - Astro
 - Astro Sphere
 ---
-![A test image](@assets/images/elephant-charge.jpg)
+<picture>
+  <source
+    type="image/avif"
+    srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_50/f_avif/elephant-charge_ihudf7.jpg 50w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_343/f_avif/elephant-charge_ihudf7.jpg 343w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_526/f_avif/elephant-charge_ihudf7.jpg 526w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_633/f_avif/elephant-charge_ihudf7.jpg 633w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_754/f_avif/elephant-charge_ihudf7.jpg 754w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_860/f_avif/elephant-charge_ihudf7.jpg 860w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_955/f_avif/elephant-charge_ihudf7.jpg 955w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_970/f_avif/elephant-charge_ihudf7.jpg 970w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_1000/f_avif/elephant-charge_ihudf7.jpg 1000w"
+    sizes="(max-width: 50px) 50px,
+(max-width: 343px) 343px,
+(max-width: 526px) 526px,
+(max-width: 633px) 633px,
+(max-width: 754px) 754px,
+(max-width: 860px) 860px,
+(max-width: 955px) 955px,
+(max-width: 970px) 970px,
+(max-width: 1000px) 1000px, 100vw"
+  >
+  <source
+    type="image/jpeg"
+    srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_50/f_jpg/elephant-charge_ihudf7.jpg 50w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_343/f_jpg/elephant-charge_ihudf7.jpg 343w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_526/f_jpg/elephant-charge_ihudf7.jpg 526w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_633/f_jpg/elephant-charge_ihudf7.jpg 633w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_754/f_jpg/elephant-charge_ihudf7.jpg 754w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_860/f_jpg/elephant-charge_ihudf7.jpg 860w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_955/f_jpg/elephant-charge_ihudf7.jpg 955w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_970/f_jpg/elephant-charge_ihudf7.jpg 970w,
+https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_1000/f_jpg/elephant-charge_ihudf7.jpg 1000w"
+    sizes="(max-width: 50px) 50px,
+(max-width: 343px) 343px,
+(max-width: 526px) 526px,
+(max-width: 633px) 633px,
+(max-width: 754px) 754px,
+(max-width: 860px) 860px,
+(max-width: 955px) 955px,
+(max-width: 970px) 970px,
+(max-width: 1000px) 1000px, 100vw"
+  >
+  <img
+    src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_50/f_jpg/elephant-charge_ihudf7.jpg"
+    alt="Image"
+  />
+</picture>
 
 Astro Sphere is designed to be configurable. This article will cover the basics on
 configuring the site and make it personal.
