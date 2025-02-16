@@ -8,16 +8,153 @@
 
 @layer base {
   @font-face {
-    font-family: "Atkinson";
-    src: url("/fonts/atkinson-regular.woff") format("woff");
+    font-family: "wotfardregular";
+    src: url('public/fonts/wotfard-regular-webfont.woff2') format("woff2");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
   }
   
   @font-face {
-    font-family: "Atkinson";
-    src: url("/fonts/atkinson-bold.woff") format("woff");
+    font-family: "wotfardregular";
+    src: url('public/fonts/wotfard-semibold-webfont.woff2') format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+@font-face {
+    font-family: 'wotfardbold';
+    src: url('public/fonts/wotfard-bold-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardextralight';
+    src: url('public/fonts/wotfard-extralight-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardlight';
+    src: url('public/fonts/wotfard-light-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'wotfardmedium';
+    src: url('public/fonts/wotfard-medium-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardregular';
+    src: url('public/fonts/wotfard-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardsemibold';
+    src: url('public/fonts/wotfard-semibold-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardthin';
+    src: url('public/fonts/wotfard-thin-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardbold_italic';
+    src: url('public/fonts/wotfard-bolditalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardextralight_italic';
+    src: url('public/fonts/wotfard-extralightitalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardlight_italic';
+    src: url('public/fonts/wotfard-lightitalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardmedium_italic';
+    src: url('public/fonts/wotfard-mediumitalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardregular_italic';
+    src: url('public/fonts/wotfard-regularitalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardsemibold_italic';
+    src: url('public/fonts/wotfard-semibolditalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardthin_italic';
+    src: url('public/fonts/wotfard-thinitalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+html {
+  overflow-y: scroll;
+  color-scheme: light;
+  background-color: white;
+  font-family: "wotfardregular";
+}
+
+html.dark {
+  color-scheme: dark;
+  background-color: black;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --copy-btn-margin:10px;
+}
+
+@layer base {
+  @font-face {
+    font-family: "wotfardregular";
+    src: url("public/fonts/wotfard-regular-webfont.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "wotfardregular";
+    src: url("public/fonts/wotfard-regular-webfont.woff2") format("woff2");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -28,7 +165,7 @@ html {
   overflow-y: scroll;
   color-scheme: light;
   background-color: white;
-  font-family: "Atkinson", sans-serif;
+  font-family: "wotfardregular", sans-serif;
   
 }
 
