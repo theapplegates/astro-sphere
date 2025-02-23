@@ -9,59 +9,39 @@ tags:
 - Astro Sphere
 ---
 
-<div class="shadow-wrapper">
-<picture class="responsive-picture">
-  <source media="(min-width: 1200px)" type="image/jxl" sizes="40vw" srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2150/dpr_1/c_scale,w_860/v1740184206/nttir2gllfggqpmwfgdd.jxl 860w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2150/dpr_2/c_scale,w_860/v1740184206/nttir2gllfggqpmwfgdd.jxl 1720w
-  ">
-  <source media="(min-width: 1200px)" type="image/avif" sizes="40vw" srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2150/dpr_1/c_scale,w_860/v1740184206/nttir2gllfggqpmwfgdd.avif 860w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2150/dpr_2/c_scale,w_860/v1740184206/nttir2gllfggqpmwfgdd.avif 1720w
-  ">
-  <source media="(min-width: 1200px)" type="image/jpeg" sizes="40vw" srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2150/dpr_1/c_scale,w_860/v1740184206/nttir2gllfggqpmwfgdd.jpeg 860w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/c_fill,g_auto/c_scale,w_2150/dpr_2/c_scale,w_860/v1740184206/nttir2gllfggqpmwfgdd.jpeg 1720w
-  ">
-  <source media="(min-width: 992px) and (max-width: 1199px)" type="image/jxl" sizes="60vw" srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill/c_fill,g_auto/c_scale,w_2150/dpr_1/c_scale,w_1290/v1740184206/nttir2gllfggqpmwfgdd.jxl 1290w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill/c_fill,g_auto/c_scale,w_2150/dpr_2/c_scale,w_1290/v1740184206/nttir2gllfggqpmwfgdd.jxl 2580w
-  ">
-  <source media="(min-width: 992px) and (max-width: 1199px)" type="image/avif" sizes="60vw" srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill/c_fill,g_auto/c_scale,w_2150/dpr_1/c_scale,w_1290/v1740184206/nttir2gllfggqpmwfgdd.avif 1290w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill/c_fill,g_auto/c_scale,w_2150/dpr_2/c_scale,w_1290/v1740184206/nttir2gllfggqpmwfgdd.avif 2580w
-  ">
-  <source media="(min-width: 992px) and (max-width: 1199px)" type="image/jpeg" sizes="60vw" srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill/c_fill,g_auto/c_scale,w_2150/dpr_1/c_scale,w_1290/v1740184206/nttir2gllfggqpmwfgdd.jpeg 1290w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_16:9,c_fill/c_fill,g_auto/c_scale,w_2150/dpr_2/c_scale,w_1290/v1740184206/nttir2gllfggqpmwfgdd.jpeg 2580w
-  ">
-  <source media="(min-width: 768px) and (max-width: 991px)" type="image/jxl" sizes="70vw" srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill/c_fill,g_auto/c_scale,w_2150/dpr_1/c_scale,w_700/v1740184206/nttir2gllfggqpmwfgdd.jxl 700w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill/c_fill,g_auto/c_scale,w_2150/dpr_2/c_scale,w_700/v1740184206/nttir2gllfggqpmwfgdd.jxl 1400w
-  ">
-  <source media="(min-width: 768px) and (max-width: 991px)" type="image/avif" sizes="70vw" srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill/c_fill,g_auto/c_scale,w_2150/dpr_1/c_scale,w_700/v1740184206/nttir2gllfggqpmwfgdd.avif 700w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill/c_fill,g_auto/c_scale,w_2150/dpr_2/c_scale,w_700/v1740184206/nttir2gllfggqpmwfgdd.avif 1400w
-  ">
-  <source media="(min-width: 768px) and (max-width: 991px)" type="image/jpeg" sizes="70vw" srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill/c_fill,g_auto/c_scale,w_2150/dpr_1/c_scale,w_700/v1740184206/nttir2gllfggqpmwfgdd.jpeg 700w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_4:3,c_fill/c_fill,g_auto/c_scale,w_2150/dpr_2/c_scale,w_700/v1740184206/nttir2gllfggqpmwfgdd.jpeg 1400w
-  ">
-  <source media="(max-width: 767px)" type="image/jxl" sizes="100vw" srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill/c_fill,g_auto/c_scale,w_2150/dpr_1/c_scale,w_400/v1740184206/nttir2gllfggqpmwfgdd.jxl 400w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill/c_fill,g_auto/c_scale,w_2150/dpr_2/c_scale,w_400/v1740184206/nttir2gllfggqpmwfgdd.jxl 800w
-  ">
-  <source media="(max-width: 767px)" type="image/avif" sizes="100vw" srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill/c_fill,g_auto/c_scale,w_2150/dpr_1/c_scale,w_400/v1740184206/nttir2gllfggqpmwfgdd.avif 400w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill/c_fill,g_auto/c_scale,w_2150/dpr_2/c_scale,w_400/v1740184206/nttir2gllfggqpmwfgdd.avif 800w
-  ">
-  <source media="(max-width: 767px)" type="image/jpeg" sizes="100vw" srcset="
-    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill/c_fill,g_auto/c_scale,w_2150/dpr_1/c_scale,w_400/v1740184206/nttir2gllfggqpmwfgdd.jpeg 400w,
-    https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill/c_fill,g_auto/c_scale,w_2150/dpr_2/c_scale,w_400/v1740184206/nttir2gllfggqpmwfgdd.jpeg 800w
-  ">
-  <img src="https://res.cloudinary.com/paulapplegate-com/image/upload/ar_1:1,c_fill/c_fill,g_auto/c_scale,w_2150/dpr_1/c_scale,w_400/v1740184206/nttir2gllfggqpmwfgdd.jpeg" alt="Responsive Image" loading="lazy">
-</picture>
-</div>
+:root {
+  --shadow-color: 0deg 0% 45%;
+  --shadow-elevation-low:
+    1px 0.1px 1.2px hsl(var(--shadow-color) / 0.69),
+    5px 0.7px 5.9px -2.2px hsl(var(--shadow-color) / 0.78);
+  --shadow-elevation-medium:
+    1px 0.1px 1.2px hsl(var(--shadow-color) / 0.64),
+    6.5px 0.9px 7.7px -1.1px hsl(var(--shadow-color) / 0.7),
+    25px 3.6px 29.6px -2.2px hsl(var(--shadow-color) / 0.76);
+  --shadow-elevation-high:
+    1px 0.1px 1.2px hsl(var(--shadow-color) / 0.89),
+    20.4px 3px 24.1px -0.7px hsl(var(--shadow-color) / 0.95),
+    59.1px 8.6px 69.9px -1.5px hsl(var(--shadow-color) / 1),
+    150px 21.7px 177.3px -2.2px hsl(var(--shadow-color) / 1);
+}
+
+/* Image and shadow classes */
+img {
+  box-shadow: var(--shadow-elevation-medium);
+  transition: box-shadow var(--transition-duration) var(--transition-timing);
+}
+
+.shadow-low {
+  box-shadow: var(--shadow-elevation-low);
+}
+
+.shadow-medium {
+  box-shadow: var(--shadow-elevation-medium);
+}
+
+.shadow-high {
+  box-shadow: var(--shadow-elevation-high);
+}
 
 Astro Sphere is designed to be configurable. This article will cover the basics on
 configuring the site and make it personal.
