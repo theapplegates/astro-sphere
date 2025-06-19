@@ -95,9 +95,15 @@ export const SOCIALS: Socials = [
 
 
 
-<script src="https://unpkg.com/cloudinary-core@latest/cloudinary-core-shrinkwrap.js" type="text/javascript">
-    </script>
-    <img data-src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_auto/f_jxl,q_auto/v1748952359/priey9txfokhpkfl60le.jpg"
+<script type="text/javascript">
+	my_breakpoints = function (width){
+		return 50 * Math.ceil(width / 50);
+	}
+	var cl = cloudinary.Cloudinary.new({cloud_name: "paulapplegate-com"});
+	cl.config({breakpoints:my_breakpoints, responsive_use_breakpoints:"resize"})
+	cl.responsive();
+</script> 
+<img data-src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_auto/f_jxl,q_auto/v1748952359/priey9txfokhpkfl60le.jpg"
     class="cld-responsive">
 <script type="text/javascript">
       var cl = cloudinary.Cloudinary.new({
