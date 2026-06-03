@@ -34,7 +34,7 @@ A one line summary of what each file and directory is for:
 │   │   |  projects/ // Contains all projects markdown
 │   │   |  work/ // Contains all work page markdown
 │   │   |  legal/ // Contains all legal docs markdown
-│   │   └── config.ts // Contains the collection config for Astro
+│   └── content.config.ts // Contains the collection config for Astro
 │   ├── layouts/ // Reused layouts across the website
 │   └── pages/ // All of the pages on the website
 │   └── styles/ // CSS and global tailwind styles
